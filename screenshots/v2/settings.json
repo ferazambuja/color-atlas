@@ -1,0 +1,178 @@
+{
+  "appVersion": "2.0.3",
+  "matlab": "26.1.0.3346908 (R2026a) Update 5",
+  "runUTC": "17-Sep-2026 03:22:56",
+  "figureSize": [
+    1440,
+    1000
+  ],
+  "captures": [
+    {
+      "file": "01-cielab.png",
+      "sha256": "b18e5ddc77d44531a0f57046710fb9f95323fe08fc3041474be559ddf6e78b0c",
+      "caption": "CIELAB L*=50. Horizontal hue, vertical C*ab; sRGB/D65 trichromat.",
+      "state": {
+        "model": "cielab",
+        "plane": "L-h-C",
+        "space": "srgb",
+        "white": "d65",
+        "vision": "trichromat",
+        "surround": "average",
+        "laMode": "explicit",
+        "La": 20,
+        "Lw": 100,
+        "Yb": 20,
+        "dMode": "automatic",
+        "D": 1,
+        "backgroundL": 50,
+        "constant": 50
+      },
+      "counts": {
+        "displayable": 467,
+        "clippedPreview": 0,
+        "outsideSelectedGamut": 289,
+        "modelInvalid": 0
+      },
+      "Qwhite": null,
+      "effectiveLa": 20,
+      "effectiveD": null,
+      "backgroundXYZ": [
+        0.1750637602505228,
+        0.18418651851244416,
+        0.20054780695190458
+      ],
+      "backgroundRGB": [
+        0.46632660928353736,
+        0.46632660928353725,
+        0.46632660928353725
+      ]
+    },
+    {
+      "file": "02-cam16.png",
+      "sha256": "6deddfe499c24968252f9b260c49aed1b7c81e11a2109b5973cd6cadd5b1e8f6",
+      "caption": "CAM16 (Li 2017), h=180 degrees, La20, Yb20, average surround, manual D=1.",
+      "state": {
+        "model": "cam16",
+        "plane": "h-C-J",
+        "space": "srgb",
+        "white": "d65",
+        "vision": "trichromat",
+        "surround": "average",
+        "laMode": "explicit",
+        "La": 20,
+        "Lw": 100,
+        "Yb": 20,
+        "dMode": "manual",
+        "D": 1,
+        "backgroundL": 50,
+        "constant": 180
+      },
+      "counts": {
+        "displayable": 163,
+        "clippedPreview": 0,
+        "outsideSelectedGamut": 258,
+        "modelInvalid": 20
+      },
+      "Qwhite": 171.01091301117248,
+      "effectiveLa": 20,
+      "effectiveD": 1,
+      "backgroundXYZ": [
+        0.190094,
+        0.2,
+        0.21776600000000002
+      ],
+      "backgroundRGB": [
+        0.48452920448170705,
+        0.48452920448170694,
+        0.48452920448170694
+      ]
+    },
+    {
+      "file": "03-tritan.png",
+      "sha256": "6198dc9f47bcfd17a9fb34bf20d9d9b0804216ae16141f825dbf9f7a78d59a6a",
+      "caption": "CIELAB L*=50 after the two-wing HPE tritan approximation. Gamut tested after projection.",
+      "state": {
+        "model": "cielab",
+        "plane": "L-h-C",
+        "space": "srgb",
+        "white": "d65",
+        "vision": "tritan",
+        "surround": "average",
+        "laMode": "explicit",
+        "La": 20,
+        "Lw": 100,
+        "Yb": 20,
+        "dMode": "automatic",
+        "D": 1,
+        "backgroundL": 50,
+        "constant": 50
+      },
+      "counts": {
+        "displayable": 560,
+        "clippedPreview": 0,
+        "outsideSelectedGamut": 196,
+        "modelInvalid": 0
+      },
+      "Qwhite": null,
+      "effectiveLa": 20,
+      "effectiveD": null,
+      "backgroundXYZ": [
+        0.1750637602505228,
+        0.18418651851244416,
+        0.20054780695190458
+      ],
+      "backgroundRGB": [
+        0.46632660928353736,
+        0.46632660928353725,
+        0.46632660928353725
+      ]
+    },
+    {
+      "file": "04-prophoto-preview.png",
+      "sha256": "402d3e011def1574d7a6ad54cb0043499597bbd5bea1a30aa3028b4d4160ffd3",
+      "caption": "ProPhoto membership with sRGB preview. Orange outlines identify preview clipping.",
+      "state": {
+        "model": "cielab",
+        "plane": "L-h-C",
+        "space": "prophoto-rgb",
+        "white": "d65",
+        "vision": "trichromat",
+        "surround": "average",
+        "laMode": "explicit",
+        "La": 20,
+        "Lw": 100,
+        "Yb": 20,
+        "dMode": "automatic",
+        "D": 1,
+        "backgroundL": 50,
+        "constant": 50
+      },
+      "counts": {
+        "displayable": 467,
+        "clippedPreview": 250,
+        "outsideSelectedGamut": 39,
+        "modelInvalid": 0
+      },
+      "Qwhite": null,
+      "effectiveLa": 20,
+      "effectiveD": null,
+      "backgroundXYZ": [
+        0.1750637602505228,
+        0.18418651851244416,
+        0.20054780695190458
+      ],
+      "backgroundRGB": [
+        0.46632660928353736,
+        0.46632660928353725,
+        0.46632660928353725
+      ]
+    }
+  ],
+  "helpCapture": "05-guide.png",
+  "helpCaptureSHA256": "8065c17f526ede4016243f8253baf39b1bb64264a7bf181a91a4850ecbce97b1",
+  "helpFigureSize": [
+    1100,
+    900
+  ],
+  "meaning": "Encoded sRGB software previews; not monitor measurements or observer validation."
+}
